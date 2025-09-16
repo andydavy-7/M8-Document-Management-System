@@ -34,6 +34,25 @@
 
 ## 4. User Journeys within the Solution
 
-* **Document Creator Journey:** A department head drafts a new procedure within Aegis, attaches supporting material, and initiates a pre-defined approval workflow. They monitor the approval status on their dashboard.
-* **Approver Journey:** A manager receives an email notification of a pending approval. They log into Aegis, review the document and its change history, and provide their approval or rejection with comments.
-* **Employee Journey:** A team member receives a notification that a new policy has been published. They log in, read the document, and click a button to confirm they have "Read and Understood" it.
+### Persona 1: Document Author/Manager
+- Creates draft policy → uploads to system
+- Assigns reviewers & approvers
+- Tracks approval status (pending, approved)
+- Publishes approved version → employees notified
+
+### Persona 2: Approver/Manager
+- Receives approval notification → reviews document
+- Approves or requests changes
+- Signs off via Adobe Sign (Options 2 & 3)
+- Provides audit-ready trail of decision
+
+### Persona 3: Employee/Consumer
+- Logs into portal → accesses “latest approved” policies
+- Reads document → marks as “understood”
+- Audit record reflects acknowledgment
+
+### Persona 4: System Admin
+- Configures storage & retention rules
+- Manages roles, permissions, and external auditor access
+- Enforces GDPR compliance & encryption settings
+- Monitors reader analytics, system health, and audit logs
